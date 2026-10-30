@@ -548,17 +548,17 @@ a { color: inherit; }
   animation: stamp 0.55s cubic-bezier(0.2, 0.8, 0.3, 1) forwards;
 }
 
-.mast-2 { animation-delay: 0.28s; }
+.mast-2 { animation-delay: 0.12s; }
 
 .hero-where, .hero-lede, .hero-ctas, .hero-photo {
   opacity: 0;
-  animation: rise 0.6s ease forwards;
+  animation: rise 0.45s ease forwards;
 }
 
-.hero-where { animation-delay: 0.08s; }
-.hero-lede { animation-delay: 0.42s; }
-.hero-ctas { animation-delay: 0.55s; }
-.hero-photo { animation-delay: 0.35s; }
+.hero-where { animation-delay: 0.04s; }
+.hero-lede { animation-delay: 0.14s; }
+.hero-ctas { animation-delay: 0.22s; }
+.hero-photo { animation-delay: 0.16s; }
 
 
 @keyframes stamp { to { clip-path: inset(0 0 0 0); } }
