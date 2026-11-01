@@ -514,6 +514,13 @@ a { color: inherit; }
 
 .visit-photos { display: grid; gap: 1.4rem; }
 
+.visit-map {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 4px solid var(--ink);
+  box-shadow: 10px 10px 0 var(--navy);
+}
+
 .visit-photos img {
   border: 4px solid var(--ink);
   box-shadow: 10px 10px 0 var(--navy);
