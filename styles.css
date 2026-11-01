@@ -500,6 +500,26 @@ a { color: inherit; }
 
 .visit-info .btn-primary { margin-top: 1.4rem; }
 
+.fb-btn {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  color: #1877F2;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.fb-btn svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  display: block;
+}
+
+.fb-btn:hover {
+  color: #0e5bd1;
+  transform: translateY(-2px);
+}
+
 .maps-link {
   display: block;
   width: fit-content;
