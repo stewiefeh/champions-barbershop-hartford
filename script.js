@@ -101,7 +101,7 @@
       }
       var rows = $$(".hours tr");
       var names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      var idx = names.indexOf(now.day);
+      var idx = (names.indexOf(now.day) + 6) % 7; /* table starts on Monday */
       rows.forEach(function (r, i) { r.classList.toggle("is-today", i === idx); });
     } catch (e) {
       openText.textContent = "Open daily \u00b7 9:00 AM - 5:00 PM";

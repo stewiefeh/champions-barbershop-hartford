@@ -134,11 +134,6 @@ h1, h2, h3 { color: var(--white); }
   text-transform: uppercase; color: var(--gold); display: block; line-height: 1;
   margin-top: 3px;
 }
-.brand-word, .brand-sub { display: table-cell; }
-.brand { display: inline-flex; align-items: center; }
-.brand > * { display: block; }
-.brand-word { display: block; }
-.brand-sub { display: block; }
 .topnav { display: flex; gap: clamp(.9rem, 2vw, 1.8rem); }
 .topnav a {
   color: var(--slate); text-decoration: none; font-weight: 600; font-size: .92rem;
