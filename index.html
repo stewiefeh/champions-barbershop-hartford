@@ -10,11 +10,14 @@
 <meta property="og:description" content="Master barber Devrin Booker. Fades, line-ups, beards, freestyle designs. 4.8 stars across 390+ reviews. Open seven days a week.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="img/storefront-neon.jpg">
+<meta property="og:url" content="https://stewiefeh.github.io/champions-barbershop-hartford/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F1EAD9">
 <meta property="og:locale" content="en_US">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,500;10..72,700;10..72,900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=12">
+<link rel="stylesheet" href="styles.css?v=13">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,6 +53,15 @@
     <a href="#visit">Find the Shop</a>
   </nav>
   <a class="btn btn-call" href="tel:+18602919477">Call the shop</a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+    <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+  </button>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Sections" hidden>
+    <a href="#card">The Card</a>
+    <a href="#main-event">Devrin</a>
+    <a href="#decision">Reviews</a>
+    <a href="#visit">Find the Shop</a>
+  </nav>
 </header>
 
 <main>
@@ -68,51 +80,51 @@
     </div>
   </div>
   <figure class="hero-photo">
-    <img src="img/shop-interior.jpg" alt="Inside Champions Barber Shop, two barbers at work with the price list on the wall" width="1200" height="900" loading="eager">
+    <img src="img/shop-interior.webp" alt="Inside Champions Barber Shop, two barbers at work with the price list on the wall" width="1200" height="900" loading="eager">
       <figcaption class="photo-caption"><span class="star" aria-hidden="true">&#9733;</span> Est. 2010</figcaption>
   </figure>
 </section>
 
 <section class="tape" aria-label="The record in numbers">
   <div class="tape-grid">
-    <div class="tape-cell"><span class="tape-num">4.8</span><span class="tape-label">Google rating</span></div>
-    <div class="tape-cell"><span class="tape-num">390+</span><span class="tape-label">verified reviews</span></div>
-    <div class="tape-cell"><span class="tape-num">7</span><span class="tape-label">days a week</span></div>
-    <div class="tape-cell"><span class="tape-num">25+</span><span class="tape-label">years behind the chair</span></div>
+    <div class="tape-cell reveal"><span class="tape-num">4.8</span><span class="tape-label">Google rating</span></div>
+    <div class="tape-cell reveal"><span class="tape-num">390+</span><span class="tape-label">verified reviews</span></div>
+    <div class="tape-cell reveal"><span class="tape-num">7</span><span class="tape-label">days a week</span></div>
+    <div class="tape-cell reveal"><span class="tape-num">25+</span><span class="tape-label">years behind the chair</span></div>
   </div>
 </section>
 
 <section class="card-section" id="card">
-  <div class="section-head">
+  <div class="section-head reveal">
     <h2 class="display">The Card</h2>
     <p class="section-note">The full price list hangs on the shop wall. This is what Devrin is known for.</p>
   </div>
   <ul class="bouts">
-    <li class="bout">
+    <li class="bout reveal">
       <h3>Fades and tapers</h3>
       <p>High, skin, or tapered, with the bottom lined up clean. One reviewer walked out calling it the best cut he had in years.</p>
     </li>
-    <li class="bout">
+    <li class="bout reveal">
       <h3>The full cut <span class="bout-price">$40</span></h3>
       <p>A complete cut for forty dollars, straight from a January 2026 review. Call the shop for the rest of the menu.</p>
     </li>
-    <li class="bout">
+    <li class="bout reveal">
       <h3>Line-ups and shape-ups</h3>
       <p>Edges squared between cuts so the shape holds long after you leave the chair.</p>
     </li>
-    <li class="bout">
+    <li class="bout reveal">
       <h3>Beard work</h3>
       <p>Beards trimmed and maintained to match the cut, not fight it.</p>
     </li>
-    <li class="bout">
+    <li class="bout reveal">
       <h3>Freestyle designs</h3>
       <p>Devrin's own work: ankh symbols, waves, and geometric line-work shaved into the cut.</p>
     </li>
-    <li class="bout">
+    <li class="bout reveal">
       <h3>Curls and longer hair</h3>
       <p>Real advice on keeping curls healthy between visits, not just a quick trim and out the door.</p>
     </li>
-    <li class="bout">
+    <li class="bout reveal">
       <h3>Kids' chairs</h3>
       <p>First haircuts through teenage fades. A patient chair, headphones for the little ones, and no rush.</p>
     </li>
@@ -121,7 +133,7 @@
 
 <section class="main-event" id="main-event">
   <div class="event-inner">
-    <div class="event-copy">
+    <div class="event-copy reveal">
       <h2 class="display display-paper">The Main Event</h2>
       <p class="event-name">Devrin Booker, master barber</p>
       <p>Twenty-five years behind the chair, and it reads in the work. Call in the morning and Devrin will usually find you a slot the same day. He takes his time, lines everything up, and sends people home with actual care instructions, curls included.</p>
@@ -131,38 +143,53 @@
       </blockquote>
       <p class="event-pay">Pay with Venmo or Apple Cash at the chair.</p>
     </div>
-    <figure class="event-photo">
-      <img src="img/punching-bag.jpg" alt="Devrin cutting a client's hair, the shop's red punching bag in the corner behind them" width="1200" height="900">
+    <figure class="event-photo reveal">
+      <img src="img/punching-bag.webp" loading="lazy" alt="Devrin cutting a client's hair, the shop's red punching bag in the corner behind them" width="1200" height="900">
     </figure>
   </div>
 </section>
 
 <section class="decision" id="decision">
-  <div class="section-head">
+  <div class="section-head reveal">
     <h2 class="display">The Decision</h2>
     <p class="section-note">4.8 stars across 390+ Google reviews. That is a record, not luck.</p>
   </div>
   <div class="scorecards">
-    <article class="scorecard">
+    <article class="scorecard reveal">
       <p class="score-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
       <p class="score-quote">"Dropped in around lunch time on a Monday and Devrin was able to accommodate me. Best cut I've had in years. He took his time and did clean work."</p>
       <p class="score-meta">Joe Weis, Google review, January 2026</p>
     </article>
-    <article class="scorecard">
+    <article class="scorecard reveal">
       <p class="score-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
       <p class="score-quote">"I came in last minute looking for help to even out my hair. Devrin listened to exactly what I wanted and gave me advice on how to properly take care of my curls!"</p>
       <p class="score-meta">Ayana Pierre-Maxwell, Google review, December 2025</p>
     </article>
-    <article class="scorecard">
+    <article class="scorecard reveal">
       <p class="score-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
       <p class="score-quote">"I took my 16 year old son for a fade, booking an appointment was easy and the place was clean. My son was feeling himself the whole car ride back home."</p>
       <p class="score-meta">Maria Vargas, Google review, July 2025</p>
     </article>
-    <article class="scorecard">
+    <article class="scorecard reveal">
       <p class="score-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
       <p class="score-quote">"Great barbershop, got me super fresh. Definitely a return customer."</p>
       <p class="score-meta">Ramon Raspberry, Google review, August 2026</p>
     </article>
+  </div>
+</section>
+
+<section class="room-strip" id="room">
+  <div class="section-head">
+    <h2 class="display">The Room</h2>
+    <p class="section-note">The corner in daylight, and the sign after dark.</p>
+  </div>
+  <div class="room-grid">
+    <button class="room-frame reveal" type="button" aria-label="Enlarge photo of the shopfront in the North Meadows strip">
+      <img src="img/waiting-area.webp" alt="The Champions Barber Shop storefront in the North Meadows strip, next to Aqua Laundry" width="800" height="600" loading="lazy">
+    </button>
+    <button class="room-frame reveal" type="button" aria-label="Enlarge photo of the neon sign lit at night">
+      <img src="img/storefront-neon.webp" alt="The shop's neon Champions sign and OPEN light glowing at night" width="1600" height="900" loading="lazy">
+    </button>
   </div>
 </section>
 
@@ -171,6 +198,7 @@
     <div class="visit-info">
       <h2 class="display">Find the Shop</h2>
       <p class="visit-hours-label">Open every day</p>
+      <p class="open-badge" id="openBadge" hidden></p>
       <table class="hours">
         <caption class="sr-only">Opening hours, every day 9 AM to 5 PM</caption>
         <tbody>
@@ -191,8 +219,8 @@
     </div>
     <div class="visit-photos">
       <iframe class="visit-map" src="https://www.google.com/maps?q=Champions%20Barber%20Shop%2C%2092%20Weston%20St%20%2313%2C%20Hartford%2C%20CT%2006120&output=embed" title="Map showing Champions Barber Shop at 92 Weston St, Hartford" allowfullscreen></iframe>
-      <img src="img/storefront-pole.jpg" alt="The Champions Barber Shop storefront, brick facade with the barber pole out front" width="800" height="600">
-      <img src="img/hair-art.jpg" alt="Freestyle designs shaved into clients' hair: an ankh, waves, and geometric patterns" width="800" height="600">
+      <img src="img/storefront-pole.webp" loading="lazy" alt="The Champions Barber Shop storefront, brick facade with the barber pole out front" width="800" height="600">
+      <img src="img/hair-art.webp" loading="lazy" alt="Freestyle designs shaved into clients' hair: an ankh, waves, and geometric patterns" width="800" height="600">
     </div>
   </div>
 </section>
@@ -206,5 +234,6 @@
   <p class="footer-credit">Site made by: stewiefeh studio</p>
 </footer>
 
+<script src="script.js?v=1" defer></script>
 </body>
 </html>
