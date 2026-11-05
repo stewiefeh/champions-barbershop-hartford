@@ -13,7 +13,7 @@
   --gold-deep: #8F7322;
   --white: #FFFFFF;
   --slate: #94A3B8;
-  --slate-dim: #647084;
+  --slate-dim: #8A96AB;
   --hairline: rgba(212, 175, 55, 0.25);
   --edge: rgba(255, 255, 255, 0.07);
   --disp: "Cormorant Garamond", Georgia, serif;
@@ -506,6 +506,12 @@ h1, h2, h3 { color: var(--white); }
 .footer-line a { color: var(--slate); text-decoration-color: var(--hairline); }
 .footer-fb { font-weight: 700; }
 .footer-credit { margin-top: 1.2rem; font-size: .8rem; color: var(--slate-dim); }
+
+/* balanced service grids on desktop */
+@media (min-width: 900px) {
+  .svc-grid { grid-template-columns: repeat(2, 1fr); }
+  .svc-grid .svc:nth-last-child(1):nth-child(odd) { grid-column: 1 / -1; }
+}
 
 /* ---------- reveal on scroll ---------- */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s var(--ease), transform .7s var(--ease); }

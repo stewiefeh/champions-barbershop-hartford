@@ -250,6 +250,7 @@
       $("#svcHint").textContent = "Pick at least one service to continue.";
       return;
     }
+    if (step === 1) { setStep(2); return; }
     if (step === 2) { setStep(3); return; }
     if (step === 3) {
       if (!chosenDate || !chosenTime) {
