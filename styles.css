@@ -836,3 +836,5 @@ html { scroll-padding-top: 84px; }
   .topbar { transition: none; }
   .room-frame img { transition: none; }
 }
+.footer-credit a { color: var(--ink); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.footer-credit a:hover { color: var(--red); }
