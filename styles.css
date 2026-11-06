@@ -646,14 +646,23 @@ html { scroll-padding-top: 84px; }
   padding: 0;
 }
 
-.menu-bars { display: block; }
-.menu-bars span {
+.menu-bars {
+  position: relative;
   display: block;
+  width: 22px;
+  height: 16px;
+}
+.menu-bars span {
+  position: absolute;
+  left: 0;
   width: 22px;
   height: 2px;
   background: var(--ink);
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
+.menu-bars span:nth-child(1) { top: 0; }
+.menu-bars span:nth-child(2) { top: 7px; }
+.menu-bars span:nth-child(3) { top: 14px; }
 
 .menu-btn[aria-expanded="true"] .menu-bars span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .menu-btn[aria-expanded="true"] .menu-bars span:nth-child(2) { opacity: 0; }
